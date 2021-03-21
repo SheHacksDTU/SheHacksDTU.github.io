@@ -93,7 +93,7 @@ img {
 strong { color: #414141; }
 iframe {
 	border: none;
-	float: left;
+/* 	float: left; */
 	width: 100%;
 }
 .wp-caption,
