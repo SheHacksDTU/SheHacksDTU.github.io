@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+/****header****/
+.tg-header{
+  padding: 20px 0;
+}
+.tg-home{
+  padding: 0;
+}
+
+.tg-header{
+  padding: 10px 0;
+}
+
+.logo{
+  max-height: 70px;
+  max-width: 140px;
+  float: left;
+}
+
+#tg-header{
+  padding: 10px 0 3px;
+}
+
+.tg-homebannervtwo .tg-bannercontent .tg-datetime.heading{
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  font-size:9vmin;
+  font-weight: 500;
+  margin-bottom: 3%;
+}
+
+.tg-homebannervtwo .tg-bannercontent .tg-datetime.font{
+  font-family:Raleway;
+}
+
+
+
+/****apply now button****/
+#devfolio-apply-now {
+    -ms-flex-align: center;
+    -webkit-box-align: center;
+    align-items: center;
+    background-color: #3770FF;
+    border-radius: 3px;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    font-size: 18px;
+    font-weight: 600;
+    padding: 12px 20px;
+    text-align: center;
+    text-transform: lowercase;
+    margin: 7% auto 5%;
+}
+
+#devfolio-apply-now:not([disabled]) {
+    cursor: pointer;
+}
+
+#devfolio-apply-now:hover {
+    background-color: #2954BF !important;
+}
+
+/****tracks****/
+.track{
+  padding: 20px;
+  color: #fcf8e8;
+}
+
+.track-heading{
+  color: black;
+}
+
+.track-top{
+  border-width: 0 1px 1px 0;
+  border-style: solid;
+  border-color: black;
+}
+
+.track-mid{
+  border-width: 0 1px 1px 0;
+  border-style: solid;
+  border-color: black;
+}
+
+.track-bottom{
+  border-width: 0 1px 0 0;
+  border-style: solid;
+  border-color: black;
+}
+
+.track-end{
+  border-right: 0;
+}
+
+
+/****FAQ****/
+.faq{
+  text-align: left;
+  padding-bottom: 0;
+}
+
+.faq h2{
+  color: #fcf8e8;
+}
+
+
+/****sponsors****/
+.new{
+  border-top:1px solid #ddd;
+  border-right: 1px solid #ddd;
+}
+
+.end{
+  border-right: 0;
+}
+
+.tg-brand{
+    height:190px;
+    max-width: 90%;
+    width:auto;
+}
+
+.zulip img{
+  height: 190px;
+}
+
+/****Footer****/
+.footer-info{
+  color: #fcf8e8;
+}
+
+.footer-info a{
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: black;
+  text-decoration: underline;
+}
+
+.footer-contact{
+  color: #fcf8e8;
+  text-align: right;
+}
+
+.tg-footerbar{
+  background-color: inherit;
+}
+
+.tg-copyrights{
+  color: #fcf8e8;
+}
+
+.footer{
+  padding: 30px 0 10px;
+}
