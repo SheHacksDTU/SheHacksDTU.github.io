@@ -1287,7 +1287,7 @@ body.tg-fixedme .tg-header .tg-navigationarea{padding: 0;}
 }
 .tg-videoarea figure{
 	margin:0;
-	width:100%;
+	margin-left: 80px;
 	float:left;
 	position:relative;
 	padding:0 0 30px 30px;
