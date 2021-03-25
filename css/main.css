@@ -2421,8 +2421,17 @@ blockquote{
 }
 .tg-brands li.full{
 	width: 40%;
-	padding-left: 5vw;
+	/* padding-left: 5vw; */
 	margin-top: -5%;
+}
+.tg-brands li.full img{
+	width: 85%;
+}
+.devfolio{
+	padding-left: 6rem;
+}
+.tezos{
+	padding-left: 3rem;
 }
 /* .tg-brands li:nth-child(1),
 .tg-brands li:nth-child(2),
@@ -2446,6 +2455,46 @@ blockquote{
 }
 .tg-brands li figure a{display: block;}
 .tg-brands li figure a img{display: block;}
+
+.sponsor-button-div{
+	width: 100%;
+	display: flex;
+}
+.sponsor-button{
+	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+	border: none;
+	background-color: rgba(246,115,13,0.7);
+	color: white;
+	font-weight: 500;
+	padding: 1rem 2rem;
+	margin: auto;
+}
+@media (max-width: 800px) {
+  .tg-brands {
+    height: 8rem ;
+  }
+	.tg-brands li.full{
+		width: 60%;
+		margin-top: -5%;
+	}
+	.devfolio{
+		width: 100%;
+		padding-top: 2%;
+	}
+	.devfolio img{
+		width: 300% !important;
+		height: 60% !important;
+	}
+	.tezos{
+		padding-left: 1rem;
+	}
+	.tg-brands li figure.row-2{
+		margin-top: 10%;
+	}
+	.sponsor-button-div{
+		margin-top: 8rem;
+	}
+}
 /*==============================================
 			App Style
 ==============================================*/
@@ -4230,9 +4279,6 @@ body.tg-fixedme .tg-headervtwo:before{display:none;}
 	margin:-63px 0 0 -64px;
 }
 
-#prizes span{
-	font-size: 2rem;
-}
 /*==============================================
 			Tracks
 ==============================================*/
@@ -4446,4 +4492,62 @@ body {
 .card:focus-within .content > *:not(.title) {
     transition-duration: 0s;
   }
+}
+
+/* PRIZES */
+.prize-row{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 5rem;
+	flex-wrap: wrap;
+}
+.prize {
+  /* font-family: "Candara", sans-serif; */
+  width:340px;
+  background:#fff;
+  overflow:hidden;
+  border-radius:10px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+  display:flex;
+  flex-direction: column;
+	padding: 0;
+}
+@media (max-width: 800px) {
+	.prize{
+		margin: auto;
+	}
+	.prize:nth-child(1), .prize:nth-child(2){
+		margin-bottom: 5rem;
+	}
+}
+.prize-image img {
+  width:100%;
+  height:200px;
+  /* border-top-left-radius:10px;
+  border-top-right-radius: 10px; */
+  object-fit:cover;
+}
+.trophy-image img {
+  z-index:1;
+  width:130px;
+  height:130px;
+  position:relative;
+  margin-top: -75px;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  border-radius:100px;
+  border: 1px solid #b8b8b8;
+  transition-duration:0.5s;
+  transition-property: transform;
+}
+.prize-content h3{
+  font-size: 25px;
+  margin-top: 1rem;
+  text-align:center;
+}
+.prize-content li {
+  font-size:16px;
+  text-align: justify;
+  padding: 0 25px 25px 25px;
 }
