@@ -2401,7 +2401,7 @@ blockquote{
 	font-size: 250%;
 	font-weight: bold;
 	text-align: center;
-	margin-top: 20%;
+	margin-top: 30%;
 	/* color: rgba(246,115,13,0.7); */
 }
 #tg-sponsors p.silver{
@@ -2463,10 +2463,9 @@ blockquote{
 	margin-top: 20%;
 }
 .tg-brands li figure a{display: block;}
-.tg-brands li figure a img{display: block;}
 
 .sponsor-desc{
-	margin-top: 0 !important;
+	margin-top: 10px !important;
 	margin-bottom: 0.6rem;
 	font-size: 1.7rem !important;
 }
@@ -2508,7 +2507,7 @@ blockquote{
 		margin-top: 10%;
 	}
 	.sponsor-desc-first{
-		margin-top: 20% !important;
+		margin-top: 25% !important;
 	}
 	.sponsor-button-div{
 		margin-top: 8rem;
