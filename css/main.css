@@ -2407,6 +2407,9 @@ blockquote{
 #tg-sponsors p.silver{
 	margin-top: 15%;
 }
+#tg-sponsors p.bronze{
+	margin-top: 21%;
+}
 .tg-brands{
 	width: 100%;
 	float: left;
